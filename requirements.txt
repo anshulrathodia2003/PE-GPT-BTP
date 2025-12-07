@@ -1,0 +1,21 @@
+# Core LLM and RAG dependencies
+pip install streamlit
+pip install langchain-groq
+pip install langchain-chroma
+pip install langchain-huggingface
+pip install langchain-community
+pip install chromadb
+pip install sentence-transformers
+
+# Utility packages
+pip install func-timeout
+pip install python-dotenv
+
+# Scientific computing (likely needed for power electronics calculations)
+pip install numpy
+pip install pandas
+pip install matplotlib
+pip install scipy
+
+# If you're using PLECS integration
+pip install plecs  # if available, otherwise you might need proprietary PLECS Python API
